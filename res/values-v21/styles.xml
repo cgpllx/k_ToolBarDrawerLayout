@@ -1,0 +1,24 @@
+<resources>
+
+<!--     <style name="AppBaseTheme" parent="Base.Theme.AppCompat.Light"> -->
+<!--     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar"> -->
+
+<!--         API 14 theme customizations can go here. -->
+<!--         Toolbar颜色 -->
+<!--         <item name="colorPrimary">@color/abc_input_method_navigation_guard</item> -->
+<!--         通知颜色 -->
+<!--         <item name="colorPrimaryDark">@color/switch_thumb_normal_material_dark</item> -->
+<!--         <item name="colorAccent">@color/abc_primary_text_disable_only_material_dark</item> -->
+<!--         返回键样式 -->
+<!--         <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item> -->
+<!--     </style> -->
+
+<!--     <style name="AppTheme.DrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle"> -->
+<!--         <item name="color">@android:color/black</item> -->
+<!--     </style> -->
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+
+        <!-- 底部导航栏颜色 -->
+        <item name="android:navigationBarColor">#4876FF</item>
+    </style>
+</resources>

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.toolbardrawerlayout.MainActivity" >
+
+    <!-- <item -->
+    <!-- android:id="@+id/action_settings" -->
+    <!-- android:orderInCategory="100" -->
+    <!-- android:showAsAction="never" -->
+    <!-- android:title="@string/action_settings"/> -->
+<!--     <item -->
+<!--         android:id="@+id/action_settings" -->
+<!--         android:icon="@drawable/ic_launcher" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:showAsAction="ifRoom" -->
+<!--         android:title="@string/action_settings"/> -->
+<!--         android:titleCondensed="Accept" -->
+    <item
+        android:icon="@drawable/ic_launcher"
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:textSize="20sp"
+        android:title="测试111"
+        app:showAsAction="always"/>
+    <item
+          android:id="@+id/action_settings11"
+        android:orderInCategory="200"
+        android:textSize="20sp"
+        android:title="测试"
+        app:showAsAction="always"/>
+
+</menu>

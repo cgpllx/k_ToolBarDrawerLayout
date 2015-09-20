@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Toolbar颜色 -->
+        <item name="colorPrimary">#FF0000</item>
+        <!-- 通知颜色 -->
+        <item name="colorPrimaryDark">@color/switch_thumb_normal_material_dark</item>
+        <item name="colorAccent">#FF0000</item>
+        <!-- 返回键样式 -->
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+        <!-- 溢出菜单 -->
+        <!-- <item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item> -->
+        <!-- 菜单大小修改 -->
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <!-- 菜单文字颜色 -->
+        <item name="actionMenuTextColor">#FFFF00</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="AppTheme.DrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_launcher</item>
+    </style>
+
+    <style name="MenuTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
